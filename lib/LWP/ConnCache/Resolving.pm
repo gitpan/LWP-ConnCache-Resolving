@@ -7,7 +7,7 @@ use Carp;
 
 use base 'LWP::ConnCache';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
 	my $class = shift;
@@ -78,7 +78,7 @@ __END__
 
 =head1 NAME
 
-C<LWP::ConnCache::Resolving> - resolving connection cache.
+LWP::ConnCache::Resolving - resolving connection cache.
 
 =head1 DESCRIPTION
 
